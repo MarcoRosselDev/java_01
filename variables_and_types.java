@@ -26,5 +26,26 @@ public class Main {
       String s2 = "Who who who who!";                         // String literal stored in String pool
       // Java defined the operator + on strings to concatenate:
       String s3 = s1 + s2;
+
+
+      /* booleanos */
+      boolean b = false;
+      b = true;
+
+      boolean toBe = false;
+      b = toBe || !toBe;
+      if (b) {
+          System.out.println(toBe);
+      }
+
+      int children = 0;
+      b = children; // Will not work
+      if (children) { // Will not work
+          // Will not work
+      }
+      int a;
+      boolean b = true;
+      boolean c = false;
+      a = b + c;            //The following line will give an error
+      System.out.println(a);
     }
-}
