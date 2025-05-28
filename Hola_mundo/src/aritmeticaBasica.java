@@ -1,4 +1,4 @@
-public class ariteticaBasica {
+public class aritmeticaBasica {
     public static void main(String[] args) {
         int a = 5;
         int b = 3;
@@ -10,5 +10,18 @@ public class ariteticaBasica {
         System.out.println(5 * 2); // 10
         // Modulo
         System.out.println(10 % 3); //
+
+
+        // ++
+        int c = 5;
+        int d = c++;
+        /*
+        * Diferencias entre ++5 y 5++
+        * ++5 ---> primero suma 1 a 5 y luego lo retorna
+        * 5++ ---> primero retorna 5 y luego lo suma
+        * */
+        System.out.println(c); // 6
+        System.out.println(d); // 6
+
     }
 }
